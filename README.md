@@ -1,4 +1,6 @@
 # Usage
+
+## PY File
 Insert into TELEGRAM_TOKEN your Bot token
 
 Insert into TELEGRAM_CHATID your Telegram chatid
@@ -8,7 +10,14 @@ Insert into STEAM_USERNAME your username on Steam
 Insert into STEAM_PASSWORD your password on Steam
 
 Run the .py file.
+
+## EXE File
+
 If you don't have Python environment, download and run the .exe in the [releases tab](https://github.com/brottobhmg/steam-key-checker/releases)
+
+You can insert the required data through CLI.
+
+Example: ./search.exe --token "X" --chatid "X" --username "X" --password "X"
 
 # TL;DR
 Generate ==> Check ==(positive)==> Notify
@@ -19,6 +28,12 @@ This script allow you to create a random product key for [Steam](https://store.s
 To create the API request, it need to access to your Steam account to retrieve the sessionID.
 
 It can check 10 keys every 60 minuts. Yes, isn't fast. If you know how to speed up open an issue.
+
+# What print ?
+
+Print ```[ Error ] The product code you've entered is not valid. Please double check to see if you've mistyped your key. I, L, and 1 can look alike, as can V and Y, and 0 and O.``` if check the product key but it doesn't match.
+
+Print ```[ Error ] There have been too many recent activation attempts from this account or Internet address. Please wait and try your product code again later.``` if you are in timeout time.
 
 
 
