@@ -15,9 +15,11 @@ Run the .py file.
 
 If you don't have Python environment, download and run the .exe in the [releases tab](https://github.com/brottobhmg/steam-key-checker/releases)
 
-You can insert the required data through CLI.
+You can insert the required data through CLI or run with .bat file with double click.
 
 Example: ./search.exe --token "X" --chatid "X" --username "X" --password "X"
+
+
 
 # TL;DR
 Generate ==> Check ==(positive)==> Notify
