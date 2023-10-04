@@ -52,4 +52,8 @@ All combinations like this AAAA-AAAAA-XXXXX saved in .txt file, weigh 1GB.
 
 So too much GB (or TB) to store.
 
+## Tip
+BTC Address to donate
+```bc1q9wcw572a6k5q58kegjf49k4m49cakf8uavtt95```
+
 
